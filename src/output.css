@@ -166,11 +166,17 @@
   }
 }
 @layer utilities {
+  .static {
+    position: static;
+  }
   .m-\[20px\] {
     margin: 20px;
   }
   .m-auto {
     margin: auto;
+  }
+  .contents {
+    display: contents;
   }
   .flex {
     display: flex;
