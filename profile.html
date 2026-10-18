@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- <link rel="stylesheet" href=" ../../src/output.css"> -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .item{
+            
+            height: 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+     <div class="ci w-[100%] h-[100vh] bg-[url('https://i.pinimg.com/originals/6b/c1/5a/6bc15a70d27c6d80baa0d00e3d308908.jpg')] bg-no-repeat bg-cover bg-center">
+       
+
+    
+        <header class="w-[100%] xl:w-[100px] xs:w-[50%]  ">
+            <div class="ch pt-[20px] flex justify-center gap-[50px] text-gray-300 font-extrabold text-[17px] ">
+            <a class="hover:text-white" href="home.html">HOME</a>
+            <a class="hover:text-white" href="shop.html">SHOP</a>
+            <a class="hover:text-white" href="">ABOUT</a>
+            <a class="hover:text-white" href="profile.html">PROFILE</a>
+            </div>
+
+        </header>
+
+
+
+        <form action="" class=" w-[70%] h-[500px] bg-white m-auto mt-[40px] rounded-[20px]">
+            <div class="cf w-[50%] h-[500px] m-auto">
+             <div class="profile w-[100%] flex justify-center ">
+                <img class="xl:w-[300px] md:w-[100px] w-[100px]" src="https://static.vecteezy.com/system/resources/previews/036/280/650/large_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg" alt="">
+
+                
+             </div>
+             <h1 class=" text-[20px] font-bold text-center">Name</h1>
+
+             <div class="cip ml-[50px] mt-[20px] text-[17px] font-bold">
+                Enter name: <input class="item" type="text">
+                <br>
+                Enter sex: <input class="item" type="text">
+                <br>
+                Enter phone: <input class="item" type="text" >
+                <br>
+                Enter email: <input class="item" type="text">
+                <br>
+                Enter address: <input class="item" type="text">
+            </div>
+            <div class="cb w-[50%] ml-[50px] mt-[20px] flex justify-between">
+                <input type="reset" class="text-[20px] font-bold bg-red-400 p-[10px] rounded-[20px]">    
+                <button type="button" class="text-[20px] font-bold bg-green-400 p-[10px] rounded-[20px]">Save</button>
+            </div>
+
+
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
