@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <!-- <link rel="stylesheet" href=" ../../src/output.css"> -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href=" ../../src/output.css">
+    
     <style>
         *{
             box-sizing: border-box;
         }
-        .item{
+        .a{
             
-            height: 30px;
-            margin-top: 20px;
+            
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        
+        .item{
+            width: 150px;
+            outline: none;
+            margin-left: 20px;
+            border-bottom: 1px solid black;
+            
+            
+            
+        
         }
     </style>
 </head>
@@ -34,7 +46,7 @@
 
 
 
-        <form action="" class=" w-[70%] h-[500px] bg-white m-auto mt-[40px] rounded-[20px]">
+        <form action="" class=" xl:w-[50%] xl:h-[500px] md:w-[50%] md:h-[500px] w-[100%]  h-[580px] bg-white m-auto mt-[40px] rounded-[20px]">
             <div class="cf w-[50%] h-[500px] m-auto">
              <div class="profile w-[100%] flex justify-center ">
                 <img class="xl:w-[300px] md:w-[100px] w-[100px]" src="https://static.vecteezy.com/system/resources/previews/036/280/650/large_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg" alt="">
@@ -43,20 +55,20 @@
              </div>
              <h1 class=" text-[20px] font-bold text-center">Name</h1>
 
-             <div class="cip ml-[50px] mt-[20px] text-[17px] font-bold">
-                Enter name: <input class="item" type="text">
+             <div class="cip w-[100%] h-[280px]   ">
+               <p class="a "> Enter name: <input class="item" type="text"></p>
                 <br>
-                Enter sex: <input class="item" type="text">
+               <p class="a"> Enter sex: <input class="item" type="text"></p>
                 <br>
-                Enter phone: <input class="item" type="text" >
+               <p class="a"> Enter phone:  <input class="item" type="text" ></p>
                 <br>
-                Enter email: <input class="item" type="text">
+               <p class="a"> Enter email:  <input class="item" type="text"></p>
                 <br>
-                Enter address: <input class="item" type="text">
+               <p class="a"> Enter address:  <input class="item" type="text"></p>
             </div>
-            <div class="cb w-[50%] ml-[50px] mt-[20px] flex justify-between">
-                <input type="reset" class="text-[20px] font-bold bg-red-400 p-[10px] rounded-[20px]">    
-                <button type="button" class="text-[20px] font-bold bg-green-400 p-[10px] rounded-[20px]">Save</button>
+            <div class="cb w-[50%]  ml-[50px] xs: mt-[140px] flex justify-between">
+                <input type="reset" class="text-[15px] font-bold bg-red-400 p-[10px] rounded-[20px]">    
+                <button type="button" class="text-[15px] font-bold bg-green-400 p-[10px] rounded-[20px]">Save</button>
             </div>
 
 
