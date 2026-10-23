@@ -171,6 +171,9 @@
   }
 }
 @layer utilities {
+  .static {
+    position: static;
+  }
   .m-auto {
     margin: auto;
   }
@@ -194,6 +197,9 @@
   }
   .ml-\[50px\] {
     margin-left: 50px;
+  }
+  .contents {
+    display: contents;
   }
   .flex {
     display: flex;
